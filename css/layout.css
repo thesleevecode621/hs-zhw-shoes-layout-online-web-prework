@@ -1,27 +1,26 @@
-/********** Fixes **********/
-
-* {
-  margin:0;
-  padding:0;
-  border:0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+.col-1 {
+  float: left;
+  width: 32%;
 }
 
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  height: 0;
-  line-height: 0;
+ .col-2 {
+  float: left;
+  width: 66%;
 }
 
-.clear {
-  clear: both;
+ .col-3 {
+  float:left;
+  width: 100%;
+
+ }
+
+ [class*="col-"] {
+  margin-left: 2%;
 }
 
-/* Posititoning Classes */
+ .first {
+  margin-left:0%;
+  margin-bottom: 2%;
+}
 
 
